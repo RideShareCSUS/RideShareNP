@@ -37,7 +37,7 @@ public class Login extends AppCompatActivity {
         mydb = new DataBaseOperation(this);
 
         loginRun();
-        rememberMeFill();
+       // rememberMeFill();
     }
 
     //Runs login
