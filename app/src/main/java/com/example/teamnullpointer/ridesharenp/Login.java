@@ -113,7 +113,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void run() {
                 ImageView logo = (ImageView) findViewById(R.id.imageviewid);
-                logo.setImageResource(R.drawable.sacstatelogo_login);
+                //logo.setImageResource(R.drawable.sacstatelogo_login);
             }
         });
 
