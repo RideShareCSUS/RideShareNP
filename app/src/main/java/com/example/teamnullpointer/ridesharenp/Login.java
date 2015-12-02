@@ -80,11 +80,11 @@ public class Login extends AppCompatActivity {
     public void rememberMeFill(){
         Cursor res = mydb.getAllData();
         Boolean contains = res.moveToNext();
-        if(contains == true && res.getString(4).equals("YES")) { //Fills in text fields and keep remember me checked.
+        /*if(contains == true && res.getString(4).equals("YES")) { //Fills in text fields and keep remember me checked.
             emaillogintxt.setText(res.getString(1));
             passtxt.setText(res.getString(2));
             remembermebox.setChecked(true);
-        }
+        }*/
     }
 
 
